@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  background-color: #f7f7f7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  position: absolute ;
+  height: 500px;
+  width: 500px;
+  border: 2px;
+  border-color: #000000;
+  left: 28%;
+}
+
+.contain{
+	position: absolute ;
+height: 500px;
+width: 500px;
+border: 2px;
+border-color: #000000;
+left: 50%;
+}
+
+.info span {
+  opacity: 1;
+}
+
+.hideInfo {
+  opacity: 0;
+}
+
+.name {
+	opacity: 75%;
+}
+
+.hideName {
+	opacity: 0;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
+
+.navbar {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.navpicture1 {
+	width: 40px;
+	border-radius: 50%;
+	margin-top: 6px;
+	margin-left: 30px;
+}
+
+.navpicture2 {
+	height: 40px;
+	margin-top: 6px;
+	margin-left: 20px;
+	opacity: 50%;
+}
+
+.nav-logo {
+	width: 20%;
+	display: flex;
+	/* align-items: center; */
+	margin-right: 1vw;
+}
+
+.nav-logo img {
+	width: 85%;
+}
+
+.star {
+  transition: color 200ms;
+}
+
+.radio {
+	display: none;
+}
+
+.like-button {
+	width: 40%;
+	background-color: #248BC5;
+	border: none;
+	border-radius: 0.5em;
+	box-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+	outline: none;
+	z-index: 1;
+	margin-top: 2vh;
+}
+
+.dislike-button {
+	width: 40%;
+	margin-top: 2vh;
+	background-color: #DEF1FC;
+	border: none;
+	border-radius: 0.5em;
+	box-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+	outline: none;
+	z-index: 1;
+}
+
+.background {
+	position: relative;
+	width: 90%;
+	z-index: -1;
+	margin: 0 auto
+}
+
+.background img {
+	width: 100%;
+	border-radius: 1em;
+}
+
+.wrapper {
+	position: absolute;
+	color: black; 
+	font-weight: 200;
+	right: 5%;
+	font-size: 15px;
+}
+
+.wrapper p {
+	margin-left: 3vh;
+	margin-right: 3vh;
+}
+
+
+
+.info {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 1em;
+	font-size: 15px;
+	width: 90%;
+	height: 100%;
+	top: 8%;
+}
+
+.picture {
+	height: 80vh;
+	width: 100%;
+	z-index: -1;
+}
+
+.title {
+	position: absolute;
+	left: 20px;
+	/* bottom: 10px; */
+	background: white;
+	font-size: 12px;
+	border-radius: 1em;
+	padding: 0.9vh;
+	width: 50%;
+	margin-left: 2vw;
+	top:500px;
+	
+}
+
+.landmarkName {
+	font-weight: bold;
+	color: #3c6e71;
+	margin-bottom: 0;
+}
+
+.landmarkLocation {
+	margin: 0px;
+}
+
+.landmarkInfo {
+	margin: 2vh;
+}
+
+.landmarkInfo p {
+	margin: 0 0 0 2vw;
+	font-size: 14px;
+}
+
+.image2 {
+	margin-left: 25%;
+	
+}
+
+.landmarkDescription {
+	font-size: 13px;
+	
+}
+
+.title-name {
+	margin: 0;
+	font-weight: 700;
+}
+
+.title-location {
+	margin: 0;
+}
+
+.check-it-wrapper {
+	width: 70%;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.check-it {
+	font-weight: bold;
+	color: #3c6e71;
+	margin-bottom: 0;
+	padding-top: 1vh;
+	padding-bottom: 0.75vh;
+	font-size: 14px;
+}
+
+.check-it-desc {
+	margin-top: 0;
+	font-size: 12px;
+}
+
+.check-it-link {
+	text-align: right;
+	font-size: 12px;
+	font-weight: 700;
+	padding-bottom: 0.75vh;
+}
+
+.button {
+	height: 80px;
+	width: 80px;
+	right: 1px;
+	bottom: 1px;
+	top: 530px;
+	color: white;
+	position: absolute;
+} 
+
+
+
+ .btnArea {
+	 width: 100%;
+	 display: flex;
+	 justify-content: space-evenly;
+	
+ }
+
+.profile-header {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 2vh;
+}
+
+.landmark-card {
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto 3vh;
+	display: flex;
+	box-shadow: 0 0 5px #000000, 0 0 5px #ffffff;
+	border-radius: 10px;
+	background-color: #f6f5f5;
+}
+
+.landmark-image {
+	height: 20vh;
+	margin-right: 3vw;
+}
+
+.landmark-image img {
+	max-height: 100%;
+	border-radius: 10px 0 0 10px;
+}
+
+.landmark-info {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 1vh;
+	background-color: #f6f5f5;
+	margin-right: 1vw;
+	margin-bottom: 1vw;
+}
+
+.landmark-info h4 {
+	margin: 0;
+	margin-bottom: 1vh;
+}
+
+.landmark-info p {
+	font-size: 14px;
+}
+
+.landmark-location {
+	margin: 0;
+}
+
+.landmark-location img {
+	margin-right: 1vw;
+}
+
+.landmark-description {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	color: #3c6e71;
+}
+
+.star-row {
+	text-align: right;
+	margin-right: 2vw;
+}
+
